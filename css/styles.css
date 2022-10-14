@@ -223,8 +223,8 @@ ul {
 }
 
 .container {
-  */display: flex;
-  align-items: center;*/
+  /*display: flex;
+  align-items: center;/*
   width: 1230px;
   margin: auto;
   padding: 0 15px;
