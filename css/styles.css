@@ -232,6 +232,10 @@ ul {
   outline: solid tomato;
 }
 
+.nav-menu {
+  display: flex;
+}
+
 .contact-list {
   display: flex;
   margin-left: auto;
