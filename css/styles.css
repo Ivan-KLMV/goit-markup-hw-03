@@ -93,6 +93,7 @@ body {
 }
 
 .logo {
+display: block;
   font-family: Raleway;
 
   font-family: "Raleway";
