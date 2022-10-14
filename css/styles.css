@@ -232,7 +232,7 @@ ul {
   outline: solid tomato;
 }
 
-.nav-menu {
+.container.header, .nav-menu {
   display: flex;
 align-items: center;
 }
