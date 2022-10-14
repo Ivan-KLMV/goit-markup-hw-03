@@ -138,7 +138,7 @@ body {
   display: flex;
   justify-content: center;
 }
-.filters-bttns > .bttn + .bttn {
+.filters-bttns > .filter + .filter {
   margin-left: 8px;
 }
 
