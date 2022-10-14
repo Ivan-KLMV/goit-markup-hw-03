@@ -18,6 +18,11 @@ contancts-txt-clr: rgba(255, 255, 255, 0.6);
   --button-color: #f5f4fa;
   --buton-active-color: #188ce8;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+}
 /* Тіло */
 body {
   background-color: var(--body-background);
@@ -117,6 +122,7 @@ body {
 }
 
 .bttn {
+  padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -125,7 +131,17 @@ body {
   background: var(--button-color);
   border-radius: 4px;
   border: none;
+  outline: solid tomato;
 }
+
+.filters-bttns {
+  display: flex;
+  justify-content: center;
+}
+.filters-bttns > .bttn + .bttn {
+  margin-left: 8px;
+}
+
 .bttn:hover,
 .bttn:focus {
   color: #ffffff;
@@ -204,4 +220,39 @@ ul {
 
 .link.address {
   color: var(--contancts-txt-clr);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 1230px;
+  margin: auto;
+  padding: 0 15px;
+
+  outline: solid tomato;
+}
+
+.contact-list {
+  display: flex;
+  margin-left: auto;
+}
+
+.contact-list > .item + .item {
+  margin-left: 50px;
+}
+
+.pages-links {
+  display: flex;
+  margin-left: 93px;
+}
+.pages-links .item {
+  padding: 32px 0;
+}
+
+.pages-links > .item + .item {
+  margin-left: 50px;
+}
+
+.line {
+  border: 1px #ececec solid;
 }
