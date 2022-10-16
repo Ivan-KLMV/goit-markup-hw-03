@@ -37,6 +37,11 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+.section.examples {
+  padding-top: 0;
+}
+
 .main {
   background-color: var(--header-background);
 }
