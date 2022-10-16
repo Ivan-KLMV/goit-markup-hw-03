@@ -19,6 +19,9 @@ contancts-txt-clr: rgba(255, 255, 255, 0.6);
   --buton-active-color: #188ce8;
 }
 
+header {
+  border: 1px solid #ececec;
+}
 ul {
   margin: 0;
   padding: 0;
@@ -30,6 +33,10 @@ body {
   color: var(--text-color);
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .main {
   background-color: var(--header-background);
 }
@@ -299,7 +306,6 @@ img {
 
 .hidden-title {
   margin-top: 0;
-  margin-bottom: 94px;
   font-size: 0em;
   color: transparent;
 }
@@ -329,12 +335,13 @@ h2.hidden-title {
   outline: 1px solid blueviolet;
 }
 
-.footer > .container > .logo {
+/* .footer > .container > .logo {
   display: inline-block;
   margin-top: 60px;
   margin-bottom: 20px;
-}
+} */
 
 .footer > .container {
+  padding-top: 60px;
   padding-bottom: 60px;
 }
