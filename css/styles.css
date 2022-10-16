@@ -297,6 +297,10 @@ ul {
   color: var(--accent-blue-color);
 }
 
+.pages-links > .item > .link {
+  display: block;
+  padding: 32px 0;
+}
 /* Підвал */
 .footer,
 .hero {
@@ -348,9 +352,9 @@ ul {
   display: flex;
   margin-left: 93px;
 }
-.pages-links .item {
+/* .pages-links .item {
   padding: 32px 0;
-}
+} */
 
 .pages-links > .item + .item {
   margin-left: 50px;
